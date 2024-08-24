@@ -173,7 +173,7 @@ body{
     letter-spacing: 0.02em;
     color: #1d1e1f;
     margin: 0;
-    padding: 138px;
+    padding-top: 138px;
     margin-bottom: 13px;
 }
 .block_text {
@@ -415,9 +415,25 @@ input[type='number'] {
     .about {
         height: auto;
         padding-bottom: 200px;
+        background-position: center 102%;
     }
     .about__inner {
         grid-gap: 30px;
         grid-template-columns: max-content;
+    }
+    .provide {
+        padding-bottom: 100px;
+    }
+    .team .block_title,
+    .provide .block_title, {
+        padding-top: 100px;
+    }
+    .provide__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .provide__item {
+        max-width: 300px;
+        margin: 0 30px 30px;
     }
 }
